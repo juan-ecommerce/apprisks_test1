@@ -144,5 +144,6 @@ if st.sidebar.button('CALCULATE RISK'):
         st.write('An additional fee of (Euros) is recommended:')
         st.metric(label="COMMISSION TO APPLY", value = kpi_el * 3) #Metido en estático por simplicidad
 
+     st.image('risk_score.jpg')
 else:
     st.write('DEFINE THE LOAN PARAMETERS AND CLICK ON CALCULATE RISK')
