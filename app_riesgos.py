@@ -126,6 +126,12 @@ if st.sidebar.button('CALCULATE RISK'):
                 }
             ],
         }
+
+
+     col1 = st.columns(1)
+     with col1:
+        st.image('risk_score.jpg')
+     
     #Representarlos en la app
     col1,col2,col3 = st.columns(3)
     with col1:
