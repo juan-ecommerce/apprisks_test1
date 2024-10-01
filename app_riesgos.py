@@ -75,7 +75,7 @@ if st.sidebar.button('CALCULATE RISK'):
             "tooltip": {"formatter": "{a} <br/>{b} : {c}%"},
             "series": [
                 {
-                    "name": "PD",
+                    "name": "PD %",
                     "type": "gauge",
                     "axisLine": {
                         "lineStyle": {
